@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'Glyphicons Halflings';
+    src: url("../fonts/glyphicons-halflings-regular.woff") format('woff'),
+    url("../fonts/glyphicons-halflings-regular.eot") format ('eot'),
+    url("../fonts/glyphicons-halflings-regular.woff2") format ('woff2')
+    url("../fonts/glyphicons-halflings-regular.ttf") format ('ttf')
+    url("../fonts/glyphicons-halflings-regular.svg") format ('svg');
+}
+
+#control-page {
+    width: 100%;
+}
+
+/* for connect and reconnect button */
+.btn {
+  background: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+#main_buttons .btn {
+
+  border-radius: 50px;
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%; 
+  background: : #FFFFFF;
+  width: 85px;
+  height: 85px;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.8;
+  white-space: normal;
+  word-break: normal;
+  text-align: center;
+}
+
+#prev-button, #esc-button {
+    position: relative;
+    left: 0%;
+}
+
+#next-button, #enter-button {
+    position: absolute;
+    right: 0%;
+}
+
+#presentation-button, #open-button, #up-button, #down-button {
+    display: block;
+    margin: 0 auto;
+}
+
+#presentation-button {
+    margin-bottom: 20px;
+}
+
+#block1, #block2 {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+}
+
+
+body {
+    background: black;
+    color: white;
+    font-weight: 300;
+    background-image: url("../img/div-background1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
